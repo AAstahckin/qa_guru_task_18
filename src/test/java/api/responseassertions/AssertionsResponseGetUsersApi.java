@@ -3,17 +3,11 @@ package api.responseassertions;
 import api.models.getuser.UserResponseModel;
 import api.models.getusers.UsersResponseModel;
 import api.data.UsersDataValues;
-import io.restassured.response.Response;
 
-import java.util.concurrent.TimeUnit;
-
-import static api.constans.HttpStatus.OK;
 import static api.constans.OtherTexts.TEXT_SUPPORT;
 import static api.constans.OtherTexts.URL_SUPPORT;
 import static api.helpers.CustomsTextsSteps.*;
 import static io.qameta.allure.Allure.step;
-import static org.hamcrest.Matchers.greaterThanOrEqualTo;
-import static org.hamcrest.Matchers.lessThan;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AssertionsResponseGetUsersApi {
